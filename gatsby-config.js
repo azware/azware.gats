@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/azware.gats",
   siteMetadata: {
     title: `My Site`,
     description: `Mencoba mempelajari reactJS dengan Gatsby. Ternyata mudah ya.`,
