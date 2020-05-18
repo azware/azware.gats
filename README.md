@@ -6,9 +6,9 @@
   My Portfolio Web using Gatsby
 </h1>
 
-<div align="center">
+<p align="center">
 [![Netlify Status](https://api.netlify.com/api/v1/badges/59108d73-7d53-4a27-a23b-02d086617463/deploy-status)](https://app.netlify.com/sites/azware-gats/deploys)
-</div>
+</p>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
