@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="#"> <img alt="Gatsby" src="logo-1024.png" width="60" /> </a>
+  <a href="#"> <img alt="Gatsby" src="src/images/logo-192.png" width="60" /> </a>
 </p>
 <h1 align="center">
   My Portfolio Web using Gatsby
