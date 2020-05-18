@@ -1,11 +1,13 @@
 import React from "react"
 
 const Menu = () => (
-    <ul>
-      <li>Menu 1</li>
-      <li>Menu 2</li>
-      <li>Menu 3</li>
-    </ul>
+    <div class="menu"> 
+      <ul>
+        <li>Home</li>
+        <li>Project</li>
+        <li>About</li>
+      </ul>
+    </div>
   )
   
   export default Menu
