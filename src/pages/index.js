@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{maxWidth: '200px', paddingbottom: '2rem'}}>
+    <div style={{maxWidth: '200px', paddingbottom: '2rem', align: 'center'}}>
       <Logo />
     </div>
     <h1>Halo semua</h1>
