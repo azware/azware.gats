@@ -625,8 +625,10 @@ pre tt:after {
 /** This is My Style */
 
 .container {
-  font-size: 1.5em;
   min-height: 300px;
+  max-width: 1000px;
+  max-height: 500px;
+  align-content: center;
   width: 100%;
   display: grid;
   grid-template-columns: auto 1fr;
