@@ -1,12 +1,12 @@
 import React from "react"
 
 const Menu = () => (
-    <div class="menu"> 
-      <ul>
+    <div> 
+      <ol>
         <li>Home</li>
         <li>Project</li>
         <li>About</li>
-      </ul>
+      </ol>
     </div>
   )
   

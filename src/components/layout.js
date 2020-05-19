@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
             padding: `0 1.0875rem 1.45rem`,
           }}
         >
-          <div class="content"><main>{children}</main></div>
+          <div></div><main>{children}</main></div>
         </div>
         <Footer />
       </div>

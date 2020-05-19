@@ -623,35 +623,3 @@ pre tt:after {
 
 
 /** This is My Style */
-
-.container {
-  min-height: 300px;
-  max-width: 1000px;
-  max-height: 500px;
-  align-content: center;
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr auto;
-  grid-gap: 10px;
-  grid-template-areas:
-    "menu header"
-    "menu content"
-    "menu footer";
-}
-
-.menu {
-  grid-area: menu;
-} 
-
-.header {
-  grid-area: header;
-}
-
-.content {
-  grid-area: content;
-}
-
-.footer {
-  grid-area: footer;
-}
