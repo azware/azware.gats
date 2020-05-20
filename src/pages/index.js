@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { Button } from 'react-bootstrap'
 import { FaCoffee } from 'react-icons/fa'
-import { _ } from "underscore" // belum tau cara makenya. bgg jg. harus blajr underscore 
+//import { _ } from "underscore" // belum tau cara makenya. bgg jg. harus blajr underscore 
 
 import Layout from "../components/layout"
 import Himage from "../components/images/home_image" // masih bgg klo importnya pake _ error
