@@ -24,7 +24,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Himage />
     </div>
-    <Link to="/project/" style={{ marginRight: '20px' }}>Project</Link>
+    <Link to="/project/" style={{ marginRight: '20px' }} className="Button" variant="primary">Project</Link>
     <Link to="/contact/" style={{ marginRight: '20px' }}>Contact</Link>
     <Link to="/about/">About</Link>
   </Layout>
