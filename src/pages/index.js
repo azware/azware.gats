@@ -5,8 +5,8 @@ import { FaCoffee } from 'react-icons/fa'
 //import { _ } from "underscore" // belum tau cara makenya. bgg jg. harus blajr underscore 
 
 import Layout from "../components/layout"
-import Himage from "../components/images/home_image" // masih bgg klo importnya pake _ error
-import Logo from "../components/images/logo"
+import Himage from "../components/images/image" // masih bgg klo importnya pake _ error
+import Logo from "../components/images/image"
 import SEO from "../components/seo"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
