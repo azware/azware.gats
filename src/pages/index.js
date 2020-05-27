@@ -14,15 +14,15 @@ import { Container } from 'react-bootstrap'
 import { Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
 import { Alert } from 'react-bootstrap'
-import { Badge } from 'react-bootstrap'
-import { Breadcrumb } from 'react-bootstrap'
+//import { Badge } from 'react-bootstrap'
+//import { Breadcrumb } from 'react-bootstrap'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Alert variant="info">
+    <Alert variant="primary">
       Hi, Selamat ya. sudah tiba di web kami ini
     </Alert>
     <Container>
