@@ -9,13 +9,7 @@ import Logo from "../components/images/logo"
 import SEO from "../components/seo"
 
 // For React-Bootstrap 
-import { Button } from 'react-bootstrap'
-import { Container } from 'react-bootstrap'
-import { Row } from 'react-bootstrap'
-import { Col } from 'react-bootstrap'
-import { Alert } from 'react-bootstrap'
-//import { Badge } from 'react-bootstrap'
-//import { Breadcrumb } from 'react-bootstrap'
+import { Container,Row,Col,Alert,Button,Badge,Breadcrumb } from 'react-bootstrap'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -25,7 +19,6 @@ const IndexPage = () => (
     <Alert variant="primary">
       Hi, Selamat ya. sudah tiba di web kami ini
     </Alert>
-    <Container>
       <Row>
         <Col sm={2}>
           <div style={{maxWidth: '100px'}}>
@@ -33,8 +26,10 @@ const IndexPage = () => (
           </div>
         </Col>
         <Col sm={10}>
-          <h1>Hai.... <FaCoffee /></h1>
-          <Button variant="primary" size="sm">Check Btn!</Button>
+          <Alert>
+            <h1>Hai.... <FaCoffee /></h1>
+            <Button variant="primary" size="sm">Check Btn!</Button>
+          </Alert>
         </Col>
       </Row>
       <Row>
@@ -54,7 +49,6 @@ const IndexPage = () => (
           </Alert>
         </Col>
       </Row>
-    </Container>
 
     <Link to="/project/" style={{ marginRight: '20px' }}>Project</Link>
     <Link to="/contact/" style={{ marginRight: '20px' }}>Contact</Link>

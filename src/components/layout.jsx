@@ -14,6 +14,8 @@ import Menu from "./template/menu"
 import "./style/layout.css"
 import Footer from "./template/footer"
 
+import { Container,Row,Col,Alert,Button,Badge,Breadcrumb } from 'react-bootstrap'
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -27,18 +29,28 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Menu />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-      </div>
-      <Footer />
+      <Container>
+        <Row>
+          <Col sm={12}><Header siteTitle={data.site.siteMetadata.title} /></Col>
+        </Row>
+        <Row>
+          <Col sm={2}><Menu /></Col>
+          <Col sm={10}>            
+            <div
+              style={{
+                margin: `0 auto`,
+                maxWidth: 960,
+                padding: `0 1.0875rem 1.45rem`,
+              }}
+            >
+              <main>{children}</main>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={12}><Footer /></Col>
+        </Row>
+      </Container>
     </>
   )
 }
