@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaHome,FaCoffee,FaReadme } from 'react-icons/fa'
+import { FaLaptop,FaAddressBook,FaReadme } from 'react-icons/fa'
 import { Nav } from 'react-bootstrap'
 
 const Menu = () => (
@@ -10,10 +10,10 @@ const Menu = () => (
             onSelect={selectedKey => alert(`selected ${selectedKey}`)}
             >
             <Nav.Item>
-              <Nav.Link><Link to="/project/"><FaHome /> Project</Link></Nav.Link>
+              <Nav.Link><Link to="/project/"><FaLaptop /> Project</Link></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link><Link to="/contact/"><FaCoffee /> Contact</Link></Nav.Link>
+              <Nav.Link><Link to="/contact/"><FaAddressBook /> Contact</Link></Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link><Link to="/about/"><FaReadme /> About</Link></Nav.Link>

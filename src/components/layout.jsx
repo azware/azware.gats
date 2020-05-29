@@ -14,7 +14,7 @@ import Menu from "./template/menu"
 import "./style/layout.css"
 import Footer from "./template/footer"
 
-import { Container,Row,Col,Alert,Button,Badge,Breadcrumb } from 'react-bootstrap'
+import { Container,Row,Col } from 'react-bootstrap'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
