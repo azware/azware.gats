@@ -16,13 +16,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Alert variant="primary">
-      Hi, Makasih sudah mampir...
+      Hi, Welcome to my site...
     </Alert>
 
     <Jumbotron>
       <h1>Hello, world! <FaCoffee /></h1>
       <p>
-        Selamat datang di web portfolio azware menggunakan gatsby
+        This is just a simple site. 
       </p>
       <p>
         <Button variant="primary">Learn more</Button>
@@ -31,7 +31,7 @@ const IndexPage = () => (
     <Row>
       <Col sm={12}>
         <p className="mb-0">
-          Berikut contoh tampilan project yang sudah kami kerjakan
+          Just a sample images
         </p>
         <hr />
       </Col>

@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const SecondPage = (props: PageProps) => (
   <Layout>
     <SEO title="Project" />
-    <h1>Ini adalah halaman project</h1>
+    <h1>This is for my sample project</h1>
     <p>Welcome to my project({props.path})</p>
     <Link to="/">back to homepage</Link>
   </Layout>
