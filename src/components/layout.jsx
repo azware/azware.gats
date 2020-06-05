@@ -29,7 +29,15 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Container>
+      <Container 
+        style={{
+          background: `#ecf0f5`,
+          border: `2px solid #ecf0f5`,
+          borderRadius: `5px`,
+          marginTop:`20px`,
+          marginBottom:`20px`,
+        }}
+      >
         <Row>
           <Col sm={12}><Header siteTitle={data.site.siteMetadata.title} /></Col>
         </Row>
